@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="id" translate="no">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ngOtaku_forum.id</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="shortcut icon" href="./Asset/android-icon-36x36.png" type="image/x-icon">
+    <link rel="stylesheet" href="./fontawesome-free-6.1.1-web/css/all.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Barlow&family=Heebo&family=Oswald&family=Roboto&display=swap">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="./Asset/logo.png" alt="logo">
+        </div>        
+        <div class="imageSlider">
+            <figure id="banner">
+                <!-- <span>loading Image...</span> -->
+                <div class="slider">
+                    <h1>Arknights Animation: Prelude to Dawn</h1>
+                    <p>TV</p>
+                    <img src="./Asset/arknight.jpg" alt="">
+                </div>
+                <div class="slider">
+                    <h1>Chainsaw Man</h1>
+                    <p>TV</p>
+                    <img src="./Asset/chainsaw man.jpg" alt="">
+                </div>
+                <div class="slider">
+                    <h1>Bleach: Sennen Kessen-hen</h1>
+                    <p>TV</p>
+                    <img src="./Asset/bleach.jpg" alt="">
+                </div>
+                <div class="slider">
+                    <h1>Spy x Family S2</h1>
+                    <p>TV</p>
+                    <img src="./Asset/spyxfamily.jpg" alt="">
+                </div>
+            </figure>
+        </div>
+    </header>
+    <nav>
+        <div class="logo">
+            <img src="./Asset/logo.png" alt="logo">
+        </div>
+        <div class="navigate">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Anime</a></li>
+                <li><a href="#">Manga</a></li>
+                <li><a href="#">Blog</a></li>
+            </ul>
+        </div>
+        <div class="akun">
+            <a href="#" title="login account"><i class="fa-solid fa-user"></i></a>
+            <div class="dropDown">
+                <i onclick="menuDrop()" id="menu" class="fa-solid fa-ellipsis-vertical"></i>
+                <div id="myDropdown" class="dropdown-content">
+                    <a href="#">Home</a>
+                    <a href="#">Anime</a>
+                    <a href="#">Manga</a>
+                    <a href="#">Blog</a>
+                </div>
+              </div>
+        </div>
+    </nav>
+    <main>    
+        <article class="anime">
+            <section>
+                <h2>Ongoing Anime</h2>
+                <hr>
+                <div class="cardContent">
+                    <div class="container ongoing"></div>
+                </div>
+            </section>
+            <section>
+                <h2>Upcoming Anime</h2>
+                <hr>
+                <div class="cardContent">
+                    <div class="container upcoming"></div>
+                </div>
+            </section>
+        </article>
+    </main>
+    <aside>
+        <div class="trailer">
+            <div class="heading">
+                <h2>Trailer</h2>
+                <hr>
+            </div>
+            <div class="video-container">
+            </div>
+        </div>
+    </aside>
+    <footer>
+        <div class="socialMedia">
+            <img src="./Asset/logo.png" alt="">
+            <div>
+                <p>Follow Us :</p>
+                <ul>
+                    <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                    <li><a href="#"> <i class="fa-brands fab fa-telegram-plane"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fab fa-discord"></i></a></li>
+                </ul> 
+            </div>
+        </div>
+        <div class="navFooter">
+            <ul>
+                <li><a href="#">About Us |</a></li>
+                <li><a href="#">Support |</a></li>
+                <li><a href="#">Privacy Policy |</a></li>
+                <li><a href="#">FAQ |</a></li>
+                <li><a href="#">Terms |</a></li>
+                <li><a href="./form.html">Login |</a></li>
+                <li><a href="#">Signin</a></li>
+            </ul>
+            <p>ngOtaku_forum.id is a property of Ryan Design Studio Co.,Ltd. &copy;2022 All Right Reserved.</p>
+        </div>
+    </footer>
+    <script src="./script.js"></script>
+</body>
+</html>
